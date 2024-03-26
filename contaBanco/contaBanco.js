@@ -2,7 +2,7 @@
     var saldo = Number(prompt("Digite seu saldo: "))
     
   /*   var saldoFinal = saldo;
-    let saldoAtual = 0; */
+    let saldoAtual = 0;. */
 
 do{ 
     var opc = Number(prompt("Escolha como proseguir: \n1 - Saque\n2 - Depósito\n3 - Transferência"))
