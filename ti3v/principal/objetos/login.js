@@ -60,7 +60,7 @@ console.log("Login inválido") */
 let encontrar = dadosUsuario.find(element => element.email == emailUsuario && element.password == senhaUsuario);
 
 if(encontrar){
-    console.log("Login efetuado com sucesso")
+    alert("Login efetuado com sucesso")
 }else{
-    console.log("Login inválido")
+    alert("Login inválido")
 }
