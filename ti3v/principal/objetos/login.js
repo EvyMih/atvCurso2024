@@ -1,5 +1,5 @@
-let emailUsuario = prompt("Digite seu email:")
-let senhaUsuario = prompt("Digite sua senha:")
+let emailUsuario = ("evellynmiranda@gmail.com")
+let senhaUsuario = ("321")
 
 let dadosUsuario = [{
     nome: "evellyn",
@@ -50,9 +50,17 @@ if(email == dadosUsuario[0].email && senha == dadosUsuario[0].password){
     console.log("Email e senha não encontrados, tente novamente")
 } */
 
-for(i=0; i<dadosUsuario.length; i++){
+/* for(i=0; i<dadosUsuario.length; i++){
     if(emailUsuario == dadosUsuario[i].email && senhaUsuario == dadosUsuario[i].password){
         console.log("Login efetuado com sucesso")
     }
 }
-console.log("Login inválido")
+console.log("Login inválido") */
+
+let encontrar = dadosUsuario.find(element => element.email == emailUsuario && element.password == senhaUsuario);
+
+if(encontrar){
+    console.log("Login efetuado com sucesso")
+}else{
+    console.log("Login inválido")
+}
