@@ -1,5 +1,5 @@
-let emailUsuario = ("evellynmiranda@gmail.com")
-let senhaUsuario = ("321")
+let emailUsuario = prompt("Digite seu email:")
+let senhaUsuario = prompt("Digite sua senha:")
 
 let dadosUsuario = [{
     nome: "evellyn",
