@@ -1,2 +1,2 @@
-# atvCurso2024
+# banco JS
 Atividades relacionadas ao curso de aprendizagem TI - IDES
